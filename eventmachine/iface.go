@@ -22,3 +22,10 @@ func NewEventPipe() *EventPipe {
 func (ep *EventPipe) Push(event string, args ...interface{}) {
 
 }
+
+
+func (ep *EventPipe) Pull() (event string, args []interface{}) {
+	return
+}
+
+
